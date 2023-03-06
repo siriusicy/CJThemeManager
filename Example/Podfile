@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CJThemeManager_Example' do
+  pod 'CJThemeManager', :path => '../'
+  pod 'Masonry'
+  pod 'ReactiveCocoa', '2.5'
+
+
+  target 'CJThemeManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,34 @@
+PODS:
+  - CJThemeManager (0.1.0):
+    - ReactiveCocoa (= 2.5)
+  - Masonry (1.1.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - CJThemeManager (from `../`)
+  - Masonry
+  - ReactiveCocoa (= 2.5)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - ReactiveCocoa
+
+EXTERNAL SOURCES:
+  CJThemeManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJThemeManager: c443ac2792657aa401fb100a86106c68b87d9a80
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: f1ecf3baca95306721d0d1d19d08493a3e11a0cd
+
+COCOAPODS: 1.11.3
